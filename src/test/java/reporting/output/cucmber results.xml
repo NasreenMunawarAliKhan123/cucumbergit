@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="4" time="0.283488">
+<testcase classname="Arithmetic opertaions" name="Operations" time="0.26113">
+<system-out><![CDATA[Given I enter 5 in the calculator...........................................passed
+And I press "Add"...........................................................passed
+And I have entered 10 in the calculator.....................................passed
+When I press equal symbol...................................................passed
+Then The result is 15 is displayed..........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Arithmetic opertaions" name="Operations_2" time="0.007148">
+<system-out><![CDATA[Given I enter 10 in the calculator..........................................passed
+And I press "Sub"...........................................................passed
+And I have entered 5 in the calculator......................................passed
+When I press equal symbol...................................................passed
+Then The result is 5 is displayed...........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Arithmetic opertaions" name="Operations_3" time="0.006697">
+<system-out><![CDATA[Given I enter 20 in the calculator..........................................passed
+And I press "Mul"...........................................................passed
+And I have entered 30 in the calculator.....................................passed
+When I press equal symbol...................................................passed
+Then The result is 600 is displayed.........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Arithmetic opertaions" name="Operations_4" time="0.008513">
+<system-out><![CDATA[Given I enter 20 in the calculator..........................................passed
+And I press "Div"...........................................................passed
+And I have entered 5 in the calculator......................................passed
+When I press equal symbol...................................................passed
+Then The result is 4 is displayed...........................................passed
+]]></system-out>
+</testcase>
+</testsuite>
